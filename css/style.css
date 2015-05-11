@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background: url("https://ununsplash.imgix.net/photo-1415905534840-dcbeb98bc78e?q=75&fm=jpg&s=bd43adb46ffabd5b2330a0eb1b6d7a2e");
+  background-size: cover;
+  background-position: top center;
+  color: white;
+  font-family: verdana;
+}
+/*
+eiffel tower url - https://unsplash.imgix.net/photo-1423034816855-245e5820ff8c?q=75&fm=jpg&s=1bf593444232ec6be93ebf02db485ae8
+eerie tree url -https://ununsplash.imgix.net/photo-1423209086112-cf2c8acd502f?q=75&fm=jpg&s=b7e9d519cc176c7f905326f5867407a7
+sf bridge url- https://ununsplash.imgix.net/photo-1422769805090-25ad0710d652?q=75&fm=jpg&s=034c4a4f9f49218c7aeb6cc9ec129f1a
+wood texture img - https://ununsplash.imgix.net/photo-1415906115194-bad6c6bda169?q=75&fm=jpg&s=435b9e1ae8866b1638889a96a4c0a541
+*/
+header {
+  margin: 50px 0 0 0;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border: 7px solid white;
+  border-radius: 125px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150 px;
+}
+ul {
+  padding: 10px;
+  }
+li {
+  display: inline;
+  padding: 0px 10px 0px 5px;
+}
+section {
+  max-width: 500px;
+}
+.about-me {
+  padding: 20px 0px 0px 0px;
+  margin: 0 auto;
+}
+.social-links {
+  display: inline-block;
+  padding: 0px 0px 20px 0px;
+  margin: 0px 20px 0px 20px;
+}
+h2 {
+  margin: 0;
+  font-family: Courier;
+  font-size: 30px ;
+}
+p {
+  font-size: 22px;
+  line-height: 28px;
+}
+a {
+  color: white;
+}
