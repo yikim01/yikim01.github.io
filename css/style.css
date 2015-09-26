@@ -1,0 +1,139 @@
+html,
+body{
+  height: 100%;
+  font-family: 'Cinzel', serif;
+}
+
+a:hover{
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+a i:hover {
+ color: white !important;
+ -webkit-transition: 0.5s all;
+ -moz-transition: 0.5s all;
+ -o-transition: 0.5s all;
+ transition: 0.5s all;
+}
+
+nav {
+  background-color: #ee6e73 !important;
+  border: none !important;
+}
+
+nav a {
+  color: white !important;
+}
+
+nav a:hover {
+  color: #95a5a6 !important;
+}
+
+nav img {
+  height: 75px;
+  position: absolute;
+  margin: 10px 0 0 50px;
+  display: none;
+}
+
+.navbar {
+  width: auto;
+}
+
+.navbar-transition {
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+
+}
+
+section {
+  height: auto;
+}
+
+#home {
+/*  background-color: #ee6e73;*/
+  background-image: url('../img/pink-flowers.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+/*  height: 100%;*/
+  color: white;
+  padding: 200px 0;
+  font-family: 'Cinzel', serif;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+span{
+  font-family: 'Tangerine', cursive;
+  font-size: 45px;
+}
+
+@media (max-width: 768px) {
+  nav img {
+    height: 150px;
+    position: absolute;
+    right: 50px;
+    display: none;
+  }
+}
+
+.col-md-6 {
+  margin-top: 70px;
+}
+
+#about-me {
+  font-size: 20px;
+  padding: 50px 0;
+}
+
+#about-me p {
+  margin-bottom: 40px;
+}
+
+#about-me ul {
+  list-style-type: none;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+#about-me  i {
+  font-size: 10em;
+  color: black;
+  margin: 30px 0;
+}
+
+#resume i{
+  font-size: 15em;
+  color: black;
+}
+
+#contact i{
+  font-size: 10em;
+  color: black;
+}
+
+#projects {
+  padding: 200px;
+}
+
+#resume {
+  background-color: #95a5a6;
+  height: 100%;
+  padding: 200px 0;
+}
+
+#contact {
+  background-color: #ee6e73;
+  padding: 230px 0;
+}
