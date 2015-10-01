@@ -68,10 +68,12 @@ section {
   font-family: 'Cinzel', serif;
 }
 
-img {
-  border-radius: 50%;
-  height: 300px;
+
+.rounded {
+border-radius: 50%;
+height: 300px;
 }
+
 
 span{
   font-family: 'Tangerine', cursive;
