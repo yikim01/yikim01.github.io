@@ -129,6 +129,13 @@ span{
   padding: 200px;
 }
 
+.project {
+  width: 50%;
+  display: block;
+  margin: 10px;
+}
+
+
 #resume {
   background-color: #95a5a6;
   height: 100%;
