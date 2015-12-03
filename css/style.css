@@ -6,12 +6,7 @@ body {
 
 #box {
   font-family: 'Raleway', sans-serif;
-}
-
-#message {
   position: absolute;
-  height: 100px;
-  width: 100px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -19,8 +14,12 @@ body {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   margin: 0 auto;
-  width: 550px;
-  font-size: 70px;
+  width: 600px;
   border-style: solid;
   border-width: 3px;
+}
+
+#message {
+  text-align: center;
+  font-size: 60px;
 }
