@@ -1,27 +1,345 @@
-html,
-body {
+body, html {
   height: 100%;
-  font-family: 'Raleway', sans-serif;
-}
-
-#box {
-  font-family: 'Raleway', sans-serif;
+  background: none;
+  background-image: url("http://www.wearewebstars.dk/codepen/img/s1.png"), url("http://www.wearewebstars.dk/codepen/img//s2.png"), url("http://www.wearewebstars.dk/codepen/img//s3.png");
+  left: 0;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin: auto;
-  width: 600px;
-  border-style: solid;
-  border-width: 3px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
 }
 
-#message {
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 200px 400px, -100px 300px;
+  }
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+body .navbar {
+  height: 3em;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  position: fixed;
+  z-index: 9999;
+}
+
+body .navbar .logo-left {
+  float: left;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+body .navbar .logo-left a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+body .navbar .nav-right {
+  float: right;
+}
+
+body .navbar .nav-right ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+body .navbar .nav-right ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body section {
+  position: relative;
+}
+
+body #home {
+  width: 100%;
+  height: 100%;
+}
+
+body #home img {
+  width: 400px;
+  margin: 250px auto;
+  display: block;
+  border: 8px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+body #about {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body #about h1 {
+  font-size: 3em;
   text-align: center;
-  font-size: 60px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+body #about .about-me {
+  text-align: center;
+  width: 100%;
+}
+
+body #about .about-me .about-img {
+  float: left;
+  text-align: center;
+  width: 400px;
+}
+
+body #about .about-me .about-info {
+  float: left;
+}
+
+body #about .about-me .about-info p {
+  width: 600px;
+  top: 0;
+  margin: 0 auto;
+}
+
+body #about .about-me .container {
+  float: left;
+  width: 100%;
+}
+
+body #about .about-me .container #pagewrap {
+  padding: 5px;
+  margin: 20px auto;
+}
+
+body #about .about-me .container #pagewrap header {
+  height: 100px;
+  padding: 0 15px;
+}
+
+body #about .about-me .container #pagewrap #content {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+body #about .about-me .container #pagewrap #content p {
+  width: 275px;
+  margin: 0 auto;
+}
+
+body #about .about-me .container #pagewrap #middle {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+body #about .about-me .container #pagewrap #middle p {
+  width: 275px;
+  margin: 0 auto;
+}
+
+body #about .about-me .container #pagewrap #sidebar {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+body #about .about-me .container #pagewrap #sidebar p {
+  width: 275px;
+  margin: 0 auto;
+}
+
+body #projects h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+body #projects .project-img {
+  display: inline-block;
+  width: 100%;
+}
+
+body #projects .project-img .box-1 {
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+}
+
+body #projects .project-img .box-2 {
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+}
+
+body #projects .project-img .box-3 {
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+}
+
+body #projects .project-img .box-4 {
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+}
+
+body #contact {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+body #contact .contact {
+  font-size: 3em;
+  text-align: center;
+}
+
+body #contact .bootstrap-style {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  background: #FFF;
+  padding: 20px 30px;
+  color: #888;
+  text-shadow: 1px 1px 1px #fff;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+body #contact .bootstrap-style h1 {
+  padding: 0px 0px 10px 40px;
+  display: block;
+  border-bottom: 1px solid #DADADA;
+  margin: -10px -30px 30px -30px;
+  color: #888;
+}
+
+body #contact .bootstrap-style h1 label {
+  display: block;
+  font-size: 11px;
+}
+
+body #contact .bootstrap-style .name {
+  display: block;
+  margin: 0px 0px 5px;
+}
+
+body #contact .bootstrap-style .name label {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+body #contact .bootstrap-style .name input[type="text"] {
+  border: 1px solid #CCC;
+  color: #888;
+  height: 20px;
+  line-height: 15px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding: 5px 0px 5px 5px;
+  width: 70%;
+  border-radius: 4px;
+}
+
+body #contact .bootstrap-style .email {
+  display: block;
+  margin: 0px 0px 5px;
+}
+
+body #contact .bootstrap-style .email label {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+body #contact .bootstrap-style .email input[type="email"] {
+  border: 1px solid #CCC;
+  color: #888;
+  height: 20px;
+  line-height: 15px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding: 5px 0px 5px 5px;
+  width: 70%;
+  border-radius: 4px;
+}
+
+body #contact .bootstrap-style .message label {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+body #contact .bootstrap-style .message textarea {
+  height: 100px;
+  width: 70%;
+  padding: 5px 0px 0px 5px;
+  color: #888;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+body #contact .bootstrap-style .button label {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+body #contact .bootstrap-style .button input[type="button"] {
+  background: #FFF;
+  border: 1px solid #CCC;
+  padding: 10px 25px 10px 25px;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 4px;
+}
+
+body #contact .bootstrap-style .button .button:hover {
+  color: #333;
+  background-color: #EBEBEB;
+  border-color: #ADADAD;
 }

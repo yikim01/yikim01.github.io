@@ -1,26 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Kimberly Yi</title>
-
+  <title>Kimbery</title>
   <!-- CSS -->
-  <link href="css/style.css" rel="stylesheet" type='text/css'/>
-  <link href="css/bootstrap.css" rel="stylesheet" type='text/css'/>
-<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
-
+  <link href="css/style.css" rel="stylesheet" type="text/css">
   <!-- Google font types -->
-  <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 </head>
+<body id="snow">
+  <nav class="navbar">
+    <div class="logo-left">
+      <a href="#home">K I M B E R L Y</a>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+<!--         <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </div>
+  </nav>
+    <section id="home">
+      <img src="img/dtla.png" alt="Profile Picture" height="400" width="400" align="middle" />
+    </section>
+    <section id="about">
+      <h1>About</h1>
+      <div class="about-me">
+        <div class="about-img">
+          <img src="img/profilepic.png" alt="Profile Picture" height="300" width="300">
+        </div> <!-- about image -->
+        <div class="about-info">
+          <p>
+            Originally from a small town in Virginia, I always felt that I belonged in a city where there was a lot of diversity and different walks of life.  With a strong desire to fulfill my dream, I worked and saved as fast and hard as I could, stuffed my car to the brim with my belongings and started my journey to sunny Los Angeles, California. </br>
 
-<body>
-  <div id="box">
-    <h1 id="message">Be Right Back !!!</h1>
-  </div>
+            When I arrived to LA, I didn't know what type of career I wanted to pursue. Although I had years of experience in sales my heart just wasn't into it anymore. My S.O. saw how frustrating it was for me to choose a new path and pushed me to try dabbling in HTML and CSS and lo and behold I fell in <strong>LOVE</strong>.</br>
+
+            There is so much you can teach yourself and I just had an urge to learn more within a shorter time period so I enrolled into General Assembly with gave me a strong foundation to continue grow as a Full Stack Web Developer</br>
+          </p>
+        </div> <!-- about information -->
+        <div class="container">
+              <div id="pagewrap">
+                <header>
+                  <h2>Other hobbies & interests</h2>
+                </header>
+
+                <div id="content">
+                <img src="img/foodnwine.png" alt="Food and Wine" height="250" width="250">
+                    <h2>Food & Wine</h2>
+                    <p>Growing up, my family rarely went out to eat and when we did, it was usually fast food. The suburbs has vast amounts of franchise restaurants so it quickly become mundane. It wasn't until college where I got to experience and explore what city life had to offer.  With  a multitude of different types, textures, taste and smells of food. I was in gluttony.  With that I also got experience different wines, whiskeys and beers.</p>
+                </div>
+
+                <div id="middle">
+                <img src="img/acrossus.png" alt="Adventures" height="250" width="250">
+                    <h2>Adventures</h2>
+                    <p>My first time traveling without my family was when I was 18.  I ended up traveling all up and down the east coast.  It was almost addicting to visit a new city</p>
+                    <p>My best memory ever was when I went back to my home country of Seoul, South Korea. What was only suppose to be a 2 month stay ended up being around 10 months. There, I learned how to speak, read, and write Korean fluently (my Korean was gramatically horrible prior to going). With China and Japan being close I decided to make the most of my stay in Asia and visit those countries as well.  It was my first time traveling alone.  I learned a lot about myself during this time and cherish every moment of it.</p>
+                </div>
+
+                <aside id="sidebar">
+                  <img src="img/artist.png" alt="Crafts" height="250" width="250">
+                    <h2>DIY's</h2>
+                    <p>Crafts have been a part of my life since I was about 8.  My mom taught me how to cross-stitch and crochet.</p>
+                    <p>Since then I started tackling DIY decorations for holidays</p>
+                    <p>I recently learned how to stencil.</p>
+                </aside>
+              </div>
+        </div>
+      </div> <!-- first section of about me -->
+
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="project-img">
+        <div class="box-1">
+          <img src="img/projectexample.png" alt="Project" height="300" width="300">
+          <h4>Project 1</h4>
+        </div>
+        <div class="box-2">
+          <img src="img/projectexample.png" alt="Project" height="300" width="300">
+          <h4>Project 2</h4>
+        </div>
+        <div class="box-3">
+          <img src="img/projectexample.png" alt="Project" height="300" width="300">
+          <h4>Project 3</h4>
+        </div>
+        <div class="box-4">
+          <img src="img/projectexample.png" alt="Project" height="300" width="300">
+          <h4>Project 4</h4>
+        </div>
+      </div>
+    </section>
+<!--     <section id="contact">
+      <h1 class="contact">Contact</h1>
+      <form action="" method="post" class="bootstrap-style">
+        <h1>Contact Form
+            <label>Please fill all the texts in the fields.</label>
+        </h1>
+        <div class="name">
+            <label>Your Name :</label>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        </div>
+
+        <div class="email">
+            <label>Your Email :</label>
+            <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+        </div>
+
+        <div class="message">
+            <label>Message :</label>
+            <textarea id="message" name="message" placeholder="Your Message to Me"></textarea>
+        </div>
+
+        <div class="button">
+            <label>&nbsp;</label>
+            <input type="button" class="button" value="Send" />
+        </div>
+      </form>
+
+    </section> -->
 </body>
 </html>
