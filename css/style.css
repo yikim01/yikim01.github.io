@@ -5,6 +5,7 @@ body {
   background-position: top center;
   color: white;
   font-family: verdana;
+  background-repeat: no-repeat;
 }
 /*
 eiffel tower url - https://unsplash.imgix.net/photo-1423034816855-245e5820ff8c?q=75&fm=jpg&s=1bf593444232ec6be93ebf02db485ae8
@@ -15,14 +16,7 @@ wood texture img - https://ununsplash.imgix.net/photo-1415906115194-bad6c6bda169
 header {
   margin: 50px 0 0 0;
 }
-img {
-  width: 250px;
-  height: 250px;
-  border: 7px solid white;
-  border-radius: 125px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150 px;
-}
+
 ul {
   padding: 10px;
   }
@@ -30,27 +24,10 @@ li {
   display: inline;
   padding: 0px 10px 0px 5px;
 }
-section {
-  max-width: 500px;
-}
-.about-me {
-  padding: 20px 0px 0px 0px;
-  margin: 0 auto;
-}
-.social-links {
-  display: inline-block;
-  padding: 0px 0px 20px 0px;
-  margin: 0px 20px 0px 20px;
-}
+
 h2 {
   margin: 0;
   font-family: Courier;
   font-size: 30px ;
 }
-p {
-  font-size: 22px;
-  line-height: 28px;
-}
-a {
-  color: white;
-}
+
