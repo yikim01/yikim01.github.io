@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   text-align: center;
   background: url("https://ununsplash.imgix.net/photo-1415905534840-dcbeb98bc78e?q=75&fm=jpg&s=bd43adb46ffabd5b2330a0eb1b6d7a2e");
@@ -31,3 +32,32 @@ h2 {
   font-size: 30px ;
 }
 
+=======
+html,
+body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+#box {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin: auto;
+  width: 600px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#message {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+>>>>>>> 28916f781cf50e2fe1d7edb9e8c70864964c314a
